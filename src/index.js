@@ -1,5 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Header from './components/Header'
+import Introduction from './components/Introduction'
+import AboutMe from './components/AboutMe'
+import PortfolioIntroduction from './components/PortfolioIntroduction';
+import Footer from './components/Footer';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+function LandingPage() {
+    return (
+        <>
+        <Header />
+        <Introduction />
+        <AboutMe />
+        <PortfolioIntroduction />
+        <Footer />
+        </>
+    )
+}
+
+ReactDOM.render(<LandingPage />, document.getElementById('root'));
