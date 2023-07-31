@@ -1,3 +1,37 @@
+.header {
+  display: flex;
+}
+
+.headerNavMenu {
+  display: flex;
+  list-style: none;
+}
+
+.headerNavMenu > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.headerPersonalLinks {
+  display: flex;
+  list-style: none;
+}
+
+.headerPersonalLinks > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.introductionTechStackItems {
+  display: flex;
+  list-style: none;
+}
+
+.introductionTechStackItems > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .portfolioStyle {
     display: flex;
 }
@@ -21,4 +55,13 @@
   
   .portfolioImageItem:hover .techStackOverlay {
     display: block; /* Show the text overlay on hover */
+  }
+
+  .footerPersonalLinks {
+    display: flex;
+    list-style: none;
+  }
+
+  .footerPersonalLinks > li {
+    margin: 20px;
   }
