@@ -4,5 +4,21 @@
   
 .portfolioImageItem {
     display: inline-block;
+    position: relative;
     margin: 10px;
 }
+
+.techStackOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* You can customize the background color and opacity */
+    color: #fff; /* You can customize the text color */
+    display: none; /* The text will be hidden by default */
+  }
+  
+  .portfolioImageItem:hover .techStackOverlay {
+    display: block; /* Show the text overlay on hover */
+  }
