@@ -32,6 +32,15 @@
   margin-right: 10px;
 }
 
+.aboutMe {
+  display: flex;
+}
+
+.aboutMe > div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 .portfolioStyle {
     display: flex;
 }

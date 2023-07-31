@@ -1,16 +1,17 @@
 // import React from 'react'
+import Image from '../images/200x300.png'
 
 export default function AboutMe() {
     return (
+        <div className="aboutMe">
         <div>
-        <div>
-            <img src="" alt="Developer-Image" />
+            <img src={Image} alt="Developer-Image" />
             <p>Full Stack Developer</p>
         </div>
 
         <div>
             <p>FirstName LastName</p>
-            <img src="" alt="Personal-Image" />
+            <img src={Image} alt="Personal-Image" />
         </div>
         </div>
     )
