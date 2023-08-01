@@ -1,12 +1,12 @@
-import React from 'react'
+// import React from 'react'
 
 export default function Footer() {
     return (
-        <div>
+        <div className="footer">
             <p>FirstName LastName</p>
-            <ul>
-                <li>GitHub</li>
-                <li>LinkedIn</li>
+            <ul className="footerPersonalLinks">
+                <li><a href="">GitHub</a></li>
+                <li><a href="">LinkedIn</a></li>
             </ul>
         </div>
     )

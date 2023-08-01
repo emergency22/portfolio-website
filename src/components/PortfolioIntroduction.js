@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 
 export default function PortfolioIntroduction() {
     return (
-        <div>
-            <a href="./portfolio.js">Portfolio</a>
+        <div className="portfolioIntroduction">
+            <a href="./portfolio">Portfolio</a>
         </div>
     )
 }

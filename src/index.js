@@ -1,21 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Header from './components/Header'
-import Introduction from './components/Introduction'
-import AboutMe from './components/AboutMe'
-import PortfolioIntroduction from './components/PortfolioIntroduction';
-import Footer from './components/Footer';
+import { createRoot } from 'react-dom/client';
+import App from './App'
+import '../src/App.css'
 
-function LandingPage() {
-    return (
-        <>
-        <Header />
-        <Introduction />
-        <AboutMe />
-        <PortfolioIntroduction />
-        <Footer />
-        </>
-    )
-}
 
-ReactDOM.render(<LandingPage />, document.getElementById('root'));
+
+const root = document.getElementById('root');
+const app = <App />;
+createRoot(root).render(app);

@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  border-style: solid;
+}
+
+.headerNavMenu {
+  display: flex;
+  list-style: none;
+  margin: auto;
+}
+
+.headerNavMenu > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.headerPersonalLinks {
+  display: flex;
+  list-style: none;
+}
+
+.headerPersonalLinks > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.introduction {
+  border-style: solid;
+  text-align: center;
+}
+
+.introductionTechStackItems {
+  display: flex;
+  list-style: none;
+  border-style: solid;
+}
+
+.introductionTechStackItems > li {
+  display: inline-block;
+  margin-right: 10px;
+  margin: auto;
+}
+
+.aboutMe {
+  display: flex;
+  border-style: solid;
+  text-align: center;
+}
+
+.aboutMe > div {
+  margin-right: 10px;
+  margin: auto;
+}
+
+.aboutMeImageItem {
+  position: relative;
+}
+
+.aboutMeImageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* You can customize the background color and opacity */
+  color: #fff; /* You can customize the text color */
+  display: none; /* The text will be hidden by default */
+}
+
+.aboutMeImageItem:hover .aboutMeImageOverlay {
+  display: block; /* Show the text overlay on hover */
+}
+
+.portfolioStyle {
+    display: flex;
+}
+  
+.portfolioImageItem {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+
+.techStackOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* You can customize the background color and opacity */
+    color: #fff; /* You can customize the text color */
+    display: none; /* The text will be hidden by default */
+  }
+  
+  .portfolioImageItem:hover .techStackOverlay {
+    display: block; /* Show the text overlay on hover */
+  }
+
+  .portfolioIntroduction {
+    border-style: solid;
+    text-align: center;
+  }
+
+  .portfolioPageSection {
+    border-style: solid;
+  }
+
+  .footer {
+    border-style: solid;
+    text-align: center;
+  }
+
+  .footerPersonalLinks {
+    display: flex;
+    list-style: none;
+  }
+
+  .footerPersonalLinks > li {
+    margin: auto;
+  }
