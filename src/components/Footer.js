@@ -5,8 +5,8 @@ export default function Footer() {
         <div className="footer">
             <p>FirstName LastName</p>
             <ul className="footerPersonalLinks">
-                <li>GitHub</li>
-                <li>LinkedIn</li>
+                <li><a href="">GitHub</a></li>
+                <li><a href="">LinkedIn</a></li>
             </ul>
         </div>
     )
