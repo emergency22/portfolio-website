@@ -74,11 +74,15 @@
 .portfolioStyle {
     display: flex;
 }
+
+.portfolioItem {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
   
 .portfolioImageItem {
-    display: inline-block;
-    position: relative;
-    margin: 10px;
+  position: relative;
 }
 
 .techStackOverlay {
