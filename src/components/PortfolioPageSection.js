@@ -2,7 +2,7 @@ import Image1 from '../images/200x300.png'
 
 export default function PortfolioPageSection() {
     return (
-        <div>
+        <div className="portfolioPageSection">
             <div className="portfolioStyle">
                 <div className="portfolioImageItem">
                     <img src={Image1} alt="Image 1 " /><br />

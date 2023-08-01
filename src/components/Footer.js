@@ -2,7 +2,7 @@
 
 export default function Footer() {
     return (
-        <div>
+        <div className="footer">
             <p>FirstName LastName</p>
             <ul className="footerPersonalLinks">
                 <li>GitHub</li>

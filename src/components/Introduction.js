@@ -2,7 +2,7 @@
 
 export default function Introduction() {
     return (
-        <>
+        <div className="introduction">
             <h1>FirstName LastName</h1>
             <p>Full Stack Developer</p>
             <p>Insert quick introductory paragraph. Insert quick introductory paragraph. Insert quick introductory paragraph. Insert quick introductory paragraph. </p>
@@ -15,6 +15,6 @@ export default function Introduction() {
                 <li><img src="" alt="Node"/></li>
                 <li><img src="" alt="React"/></li>
             </ul>
-        </>
+        </div>
     )
 }
