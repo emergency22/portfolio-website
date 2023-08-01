@@ -3,8 +3,8 @@ import { createRoot } from 'react-dom/client';
 // import ReactDOM from 'react-dom/client';
 // import ReactDOM from 'react-dom';
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import PortfolioPageSection from '../components/PortfolioPageSection'
+import Footer from '../components/Footer'
 
 export default function MyPortfolio() {
     return (
