@@ -1,28 +1,57 @@
+/*Header Start*/
+
 .header {
-  display: flex;
-  border-style: solid;
+  width: 100%;
+  position: relative;
 }
 
-.headerNavMenu {
+nav {
   display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: left;
+}
+
+.nav-links ul li {
   list-style: none;
-  margin: auto;
-}
-
-.headerNavMenu > li {
   display: inline-block;
-  margin-right: 10px;
+  padding: 8px 12px;
+  position: relative;
 }
 
-.headerPersonalLinks {
-  display: flex;
+.nav-links ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.personal-links {
+  flex: 1;
+  text-align: right;
+}
+
+.personal-links ul li {
   list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
 }
 
-.headerPersonalLinks > li {
-  display: inline-block;
-  margin-right: 10px;
+.personal-links ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
 }
+
+/*Header End*/
+
+
+
 
 .introduction {
   border-style: solid;
@@ -74,11 +103,15 @@
 .portfolioStyle {
     display: flex;
 }
+
+.portfolioItem {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+}
   
 .portfolioImageItem {
-    display: inline-block;
-    position: relative;
-    margin: 10px;
+  position: relative;
 }
 
 .techStackOverlay {
@@ -105,9 +138,13 @@
     border-style: solid;
   }
 
+
+  /*Footer Start*/
+
   .footer {
     border-style: solid;
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
   }
 
   .footerPersonalLinks {
@@ -118,3 +155,5 @@
   .footerPersonalLinks > li {
     margin: auto;
   }
+
+  /*Footer End*/
