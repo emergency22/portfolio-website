@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
-import PortfolioProjectPage from "./pages/PortfolioProjectPage";
+import PortfolioProjectPage from "../src/components/PortfolioProjectPage";
 
 export default function App() {
     return (

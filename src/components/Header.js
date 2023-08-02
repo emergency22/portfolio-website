@@ -1,19 +1,24 @@
-// import React from 'react'
-
 export default function Header() {
     return (
-        <nav className="header">
-        <ul className="headerNavMenu">
-            <li><a href="./home">Home</a></li>
-            <li>About Me</li>
-            <li><a href="">Resume</a></li>
-            <li><a href="./portfolio">Portfolio</a></li>
-        </ul>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Resume</a></li>
+                    <li><a href="">Portfolio</a></li>
+                </ul>
+            </div>
 
-        <ul className="headerPersonalLinks">
-            <li><a href="">GitHub</a></li>
-            <li><a href="">LinkedIn</a></li>
-        </ul>
+            <div class="personal-links" id="personalLinks">
+                <ul>
+                    <li><a href="">GitHub</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                </ul>
+            </div>
+
         </nav>
+    </section>
     )
 }
