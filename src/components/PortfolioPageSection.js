@@ -12,6 +12,8 @@ import Image1 from '../images/200x300.png'
 export default function PortfolioPageSection() {
     return (
         <div className="portfolioPageSection">
+
+
             <div className="portfolioStyle">
                 <div className="portfolioItem">
                 <div className="portfolioImageItem">
@@ -67,6 +69,8 @@ export default function PortfolioPageSection() {
                     <a href="">GitHub Repo</a>
                 </div>
             </div>
+
+
 
             <div className="portfolioStyle">
                 <div className="portfolioItem">
@@ -124,6 +128,10 @@ export default function PortfolioPageSection() {
                     <a href="">GitHub Repo</a>
                 </div>
             </div>
+
+
+
         </div>
+
     )
 }

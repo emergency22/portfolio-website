@@ -110,8 +110,31 @@ nav {
 /* AboutMe End */
 
 /* PortfolioPageSection Start */
+.portfolioPageSection {
+  grid-gap: 40px;
+  display: flex;
+  border-style: solid;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .portfolioStyle {
     display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+
+}
+
+@media (max-width: 768px) {
+  .portfolioPageSection {
+    flex-direction: column;
+  }
+
+  .portfolioStyle {
+    /* flex: 1; */
+    margin: 40px;
+    display: block;
+  }
 }
 
 .portfolioItem {
@@ -153,16 +176,10 @@ nav {
   }
   /* PortfolioPageSection End */
 
-
   .portfolioIntroduction {
     border-style: solid;
     text-align: center;
   }
-
-  .portfolioPageSection {
-    border-style: solid;
-  }
-
 
   /*Footer Start*/
 
