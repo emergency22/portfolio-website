@@ -1,4 +1,3 @@
-// import React from 'react'
 import AWS from '../images/icons/aws.svg'
 import JavaIcon from '../images/icons/java.svg'
 import JavascriptIcon from '../images/icons/javascript.svg'
@@ -7,13 +6,12 @@ import CSSicon from '../images/icons/css-3.svg'
 import NodeIcon from '../images/icons/nodejs.svg'
 import ReactIcon from '../images/icons/reactPNG.png'
 
-
 export default function Introduction() {
     return (
         <div className="introduction">
             <h1>FirstName LastName</h1>
-            <p>Full Stack Developer</p>
-            <p>Insert quick introductory paragraph. Insert quick introductory paragraph. Insert quick introductory paragraph. Insert quick introductory paragraph. </p>
+            <h2>Full Stack Developer</h2>
+            <h3>Insert quick introductory paragraph. Insert quick introductory paragraph. Insert quick introductory paragraph. Insert quick introductory paragraph. Insert quick introductory paragraph. </h3>
             <ul className="introductionTechStackItems">
                 <li><img src={AWS} alt="AWS" width="60" /></li>
                 <li><img src={JavaIcon} alt="Java" width="60" /></li>

@@ -1,5 +1,16 @@
 /*Header Start*/
 
+body {
+  background-image: url('./images/backgrounds/freestocksEdited.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+  background-repeat: no-repeat;
+  background-size: cover; /* Adjust this as needed to control how the background image covers the viewport */
+  background-position: center;
+  background-attachment: fixed; /* This makes the background fixed */
+}
+
+/* Photo by <a href="https://unsplash.com/@freestocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">freestocks</a> on <a href="https://unsplash.com/photos/BStW5kYXw4E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+    
+
 .header {
   width: 100%;
   position: relative;
@@ -25,7 +36,7 @@ nav {
 }
 
 .nav-links ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 20px;
 }
@@ -43,7 +54,7 @@ nav {
 }
 
 .personal-links ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 20px;
 }
@@ -55,13 +66,16 @@ nav {
 
 .introduction {
   border-style: solid;
+  border-color: white;
   text-align: center;
+  color: white;
 }
 
 .introductionTechStackItems {
   display: flex;
   list-style: none;
   border-style: solid;
+  border-color: white;
 }
 
 .introductionTechStackItems > li {
@@ -74,7 +88,9 @@ nav {
 .aboutMe {
   display: flex;
   border-style: solid;
+  border-color: white;
   text-align: center;
+  color: white;
 }
 
 .aboutMe > div {
@@ -114,6 +130,7 @@ nav {
   grid-gap: 40px;
   display: flex;
   border-style: solid;
+  border-color: white;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -178,6 +195,7 @@ nav {
 
   .portfolioIntroduction {
     border-style: solid;
+    border-color: white;
     text-align: center;
   }
 

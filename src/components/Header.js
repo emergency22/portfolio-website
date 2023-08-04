@@ -5,7 +5,7 @@ export default function Header() {
             <div class="nav-links" id="navLinks">
                 <ul>
                     <li><a href="/home">Home</a></li>
-                    <li><a href="">About Me</a></li>
+                    <li><a href="/home/#aboutMe">About Me</a></li>
                     <li><a href="">Resume</a></li>
                     <li><a href="/portfolio">Portfolio</a></li>
                 </ul>
