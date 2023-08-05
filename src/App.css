@@ -6,6 +6,7 @@ body {
   background-size: cover; /* Adjust this as needed to control how the background image covers the viewport */
   background-position: center;
   background-attachment: fixed; /* This makes the background fixed */
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
 }
 
 /* Photo by <a href="https://unsplash.com/@freestocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">freestocks</a> on <a href="https://unsplash.com/photos/BStW5kYXw4E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
@@ -69,6 +70,10 @@ nav {
   border-color: white;
   text-align: center;
   color: white;
+  border-radius: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+
 }
 
 .introductionTechStackItems {
@@ -76,6 +81,8 @@ nav {
   list-style: none;
   border-style: solid;
   border-color: white;
+  border-radius: 15px;
+  padding: 10px;
 }
 
 .introductionTechStackItems > li {
@@ -84,18 +91,33 @@ nav {
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .introductionTechStackItems {
+    flex-wrap: wrap; /* Allow list items to wrap onto new lines */
+    justify-content: center; /* Center the items horizontally */
+    overflow-x: hidden; /* Hide horizontal scrolling */
+  }
+
+  .introductionTechStackItems > li {
+    margin-bottom: 10px; /* Add some space between list items */
+  }
+}
+
 /* AboutMe Start */
 .aboutMe {
   display: flex;
   border-style: solid;
   border-color: white;
+  border-radius: 15px;
   text-align: center;
   color: white;
+  padding: 10px;
 }
 
 .aboutMe > div {
-  margin-right: 10px;
+  /* margin-right: 40px; */
   margin: auto;
+  text-align: center;
 }
 
 .aboutMeImageItem {
@@ -123,6 +145,18 @@ nav {
 .aboutMeImageItem:hover .aboutMeImageOverlay {
   display: block; /* Show the text overlay on hover */
 }
+
+@media (max-width: 768px) {
+  .aboutMe {
+    flex-direction: column; /* Stack the divs vertically */
+  }
+
+  .aboutMe > div {
+    flex: 1; /* Take full width of the container */
+    margin: 10px 0; /* Add vertical spacing between divs */
+  }
+}
+
 /* AboutMe End */
 
 /* PortfolioPageSection Start */
@@ -133,6 +167,7 @@ nav {
   border-color: white;
   justify-content: center;
   flex-wrap: wrap;
+  border-radius: 15px;
 }
 
 .portfolioStyle {
@@ -197,6 +232,8 @@ nav {
     border-style: solid;
     border-color: white;
     text-align: center;
+    border-radius: 15px;
+    padding: 10px;
   }
 
   /*Footer Start*/
