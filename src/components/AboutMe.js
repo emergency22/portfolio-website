@@ -2,7 +2,8 @@ import Image from '../images/200x300.png'
 
 export default function AboutMe() {
     return (
-        <div className="aboutMe" id="aboutMe">
+    <div id="aboutMe">
+        <div className="aboutMeItems">
         <div className="aboutMeItem">
             <div className="aboutMeImageItem">
                 <img src={Image} alt="Developer-Image" />
@@ -10,11 +11,11 @@ export default function AboutMe() {
                     <p className="bumpedText">Text text text text. Text text text text.</p>
                 </div>
             </div>
-            <h3>Full Stack Developer</h3>
+            <h3>FirstName LastName</h3>
         </div>
 
         <div className="aboutMeItem">
-            <h3>FirstName LastName</h3>
+            <h3>Full Stack Developer</h3>
             <div className="aboutMeImageItem">
                 <img src={Image} alt="Personal-Image" />
                 <div className="aboutMeImageOverlay">
@@ -24,5 +25,12 @@ export default function AboutMe() {
         </div>
 
         </div>
+
+        <div className="aboutMeStory">
+            <p>Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. </p>
+            <p>Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. </p>
+            <p>Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. Paragraph telling your personal story. </p>
+        </div>
+    </div>
     )
 }

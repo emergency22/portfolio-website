@@ -6,11 +6,11 @@ export default function ProjectContent() {
             <div className="projectOverview">
                 <h3>Project Title</h3>
                 <hr />
-                <p>A portfolio project to demonstrate my skills as a developer.</p>
+                <p>Quick project description. Quick project description. Quick project description. Quick project description. </p>
                 <ul>
-                    <li>Industry: Tech</li>
-                    <li>Duration: 2 Weeks</li>
-                    <li>Members: Alex & Gabe</li>
+                    <li><b>Industry:</b> Tech</li>
+                    <li><b>Duration:</b> 2 Weeks</li>
+                    <li><b>Project Contributors:</b> Alex & Gabe</li>
                 </ul>
                 <img src={Picture} alt="Main Project Picture" />
             </div>
@@ -18,13 +18,14 @@ export default function ProjectContent() {
             <div className="projectDetails">
                 <div className="projectDetails-row">
                     <div className="projectServices">
-                        <ul>
-                            <li>Frontend Web Development</li>
-                            <li>UX/UI Design</li>
-                        </ul>
+                        <ol><b>Project Objectives:</b>
+                            <li>First Objective</li>
+                            <li>Second Objective</li>
+                            <li>Third Objective</li>
+                        </ol>
                     </div>
                     <div className="projectTechnologies">
-                        <ul>
+                        <ul><b>Technologies Utilized:</b> 
                             <li>Java</li>
                             <li>Javascript</li>
                             <li>HTML</li>
@@ -34,17 +35,15 @@ export default function ProjectContent() {
                             <li>Git</li>
                         </ul>
                     </div>
-                    <div className="projectTeamComposition">
-                        <ul>
-                            <li>Alex Murillo</li>
-                            <li>Gabe Guio</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
 
             <div className="projectChallenges">
-                <p>Talk about challenges here.</p>
+                <ol><b>Challenges / Lessons Learned:</b> 
+                    <li>Challenge / Lesson Learned</li>
+                    <li>Challenge / Lesson Learned</li>
+                    <li>Challenge / Lesson Learned</li>
+                </ol>
             </div>
 
         </div>
