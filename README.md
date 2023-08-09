@@ -43,14 +43,14 @@ Gabe Guio and Alex Murillo, both graduates from Nashville Software School's Soft
 ![Portfolio Webiste Wire Frames](./resources/portfoliowebsite-wireframes.png)  
 
 ---
-## Project Planning
+## Final Product
 
 ![Portfolio Webiste Final Product](./resources/final_product.png)
 
 ---
 ## How to Launch
 1. Launch front end from the root directory with ```npm start``` <br>
-2. If your browser doesn't automatically open within one minute, open index.html in your web browser via ```localhost:3000/```
+2. If your browser doesn't automatically open within one minute, navigate via your web browser: ```localhost:3000/```
 
 ---
 ## Contact

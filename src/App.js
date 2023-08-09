@@ -17,7 +17,3 @@ export default function App() {
         </div>
     )
 }
-
-// const root = document.getElementById('root');
-// const app = <Home />;
-// createRoot(root).render(app);
