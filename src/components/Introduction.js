@@ -5,6 +5,8 @@ import HTMLicon from '../images/icons/html-5.svg'
 import CSSicon from '../images/icons/css-3.svg'
 import NodeIcon from '../images/icons/nodejs.svg'
 import ReactIcon from '../images/icons/reactPNG.png'
+import GitIcon from '../images/icons/git.svg'
+import GitHubIcon from '../images/icons/github.svg'
 
 export default function Introduction() {
     return (
@@ -20,6 +22,9 @@ export default function Introduction() {
                 <li><img src={CSSicon} alt="CSS" width="60" /></li>
                 <li><img src={NodeIcon} alt="Node" width="60" /></li>
                 <li><img src={ReactIcon} alt="React" width="60" /></li>
+                <li><img src={GitIcon} alt="Git" width="60" /></li>
+                <li><img src={GitHubIcon} alt="GitHub" width="60" /></li>
+
             </ul>
         </div>
     )
