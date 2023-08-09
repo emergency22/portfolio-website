@@ -3,6 +3,17 @@ import Image from '../images/200x300.png'
 export default function AboutMe() {
     return (
     <div id="aboutMe">
+
+        <div className="video-responsive">
+            <iframe
+                src={`https://www.youtube.com/embed/kAEJyZJHaFg`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube video"
+            />
+        </div>
+
         <div className="aboutMeItems">
         <div className="aboutMeItem">
             <div className="aboutMeImageItem">

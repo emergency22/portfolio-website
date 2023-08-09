@@ -12,6 +12,7 @@ body {
 a {
   color: rgba(127, 156, 225, 0.919);
   text-decoration: none;
+  cursor: pointer;
 }
 
 /*Header Start*/
@@ -103,6 +104,21 @@ nav {
 
 
 /* AboutMe Start */
+
+
+.video-responsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.video-responsive > iframe {
+  width: 40%;
+  height: 100%;
+  position: relative;
+}
+
 .aboutMeItems {
   display: flex;
   text-align: center;
@@ -136,6 +152,7 @@ nav {
 
 .aboutMeImageItem:hover .aboutMeImageOverlay {
   display: block; 
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -219,6 +236,7 @@ nav {
   
   .portfolioImageItem:hover .techStackOverlay {
     display: block;
+    cursor: pointer;
   }
 
   .techStackOverlay > ul {
@@ -248,6 +266,7 @@ nav {
 
   .portfolio-button:hover {
     background-color: #45a049;
+    cursor: pointer;
   }
 
   /* PortfolioIntroduction End */

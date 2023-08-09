@@ -45,7 +45,7 @@ Gabe Guio and Alex Murillo, both graduates from Nashville Software School's Soft
 ---
 ## Final Product
 
-![Portfolio Webiste Final Product](./resources/final_product.png)
+![Portfolio Website Final Product](./resources/final_product.png)
 
 ---
 ## How to Launch
@@ -59,7 +59,7 @@ Alex Murillo - alex.d.murillo@protonmail.com
 <br>
 <a href="https://www.linkedin.com/in/alexdmurillo/"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-brightgreen"></a><br>
 
-Gabe Guio - email@goesHere.com
+Gabe Guio - gabegoescoding@gmail.com
 <br>
 <a href="https://www.linkedin.com/in/gabe-guio/"><img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-brightgreen"></a><br>
 
