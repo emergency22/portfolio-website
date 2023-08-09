@@ -6,17 +6,19 @@ export default function Header() {
                 <ul>
                     <li><a href="/home">Home</a></li>
                     <li><a href="/home/#aboutMe">About Me</a></li>
-                    <li><a href="">Resume</a></li>
+                    <li><a href="" target="_blank">Resume</a></li>
                     <li><a href="/portfolio">Portfolio</a></li>
+                    <li><a href="" target="_blank">GitHub</a></li>
+                    <li><a href="" target="_blank">LinkedIn</a></li>
                 </ul>
             </div>
 
-            <div class="personal-links" id="personalLinks">
+            {/* <div class="personal-links" id="personalLinks">
                 <ul>
-                    <li><a href="">GitHub</a></li>
-                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="" target="_blank">GitHub</a></li>
+                    <li><a href="" target="_blank">LinkedIn</a></li>
                 </ul>
-            </div>
+            </div> */}
 
         </nav>
     </section>

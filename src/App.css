@@ -3,19 +3,18 @@
 body {
   background-image: url('./images/backgrounds/freestocksEdited.jpg');
   background-repeat: no-repeat;
-  background-size: cover; /* Adjust this as needed to control how the background image covers the viewport */
+  background-size: cover; 
   background-position: center;
-  background-attachment: fixed; /* This makes the background fixed */
+  background-attachment: fixed;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
 }
 
 a {
-  color: white;
+  color: rgba(127, 156, 225, 0.919);
   text-decoration: none;
 }
 
 /*Header Start*/
-
 .header {
   width: 100%;
   position: relative;
@@ -30,7 +29,7 @@ nav {
 
 .nav-links {
   flex: 1;
-  text-align: left;
+  text-align: center;
 }
 
 .nav-links ul li {
@@ -41,7 +40,6 @@ nav {
 }
 
 .nav-links ul li a {
-  color: white;
   text-decoration: none;
   font-size: 20px;
 }
@@ -66,15 +64,10 @@ nav {
 
 /*Header End*/
 
-
-
-
+/* Introduction Start */
 .introduction {
-  /* border-style: solid; */
-  /* border-color: white; */
   text-align: center;
   color: white;
-  /* border-radius: 15px; */
   padding-left: 10%;
   padding-right: 10%;
 
@@ -97,67 +90,61 @@ nav {
 
 @media (max-width: 768px) {
   .introductionTechStackItems {
-    flex-wrap: wrap; /* Allow list items to wrap onto new lines */
-    justify-content: center; /* Center the items horizontally */
-    overflow-x: hidden; /* Hide horizontal scrolling */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    overflow-x: hidden; 
   }
 
   .introductionTechStackItems > li {
-    margin-bottom: 10px; /* Add some space between list items */
+    margin-bottom: 10px; 
   }
 }
+/* Introduction End */
+
 
 /* AboutMe Start */
-
 .aboutMeItems {
   display: flex;
-
   text-align: center;
   color: white;
   padding: 10px;
-
 }
 
 .aboutMeItems > div {
-  /* margin-right: 40px; */
   margin: auto;
   text-align: center;
 }
 
 .aboutMeImageItem {
   position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .aboutMeImageOverlay {
   display: flex;
   position: absolute;
   top: 0;
-  /* left: 25; */
   width: 100%;
-  height: 100%;   /* Use this later within the portfolio!  */
-  background-color: rgba(0, 0, 0, 0.5); /* You can customize the background color and opacity */
-  color: #fff; /* You can customize the text color */
-  display: none; /* The text will be hidden by default */
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-}
-
-.bumpedText {   
-  margin-top: 60%;
+  height: 100%;   
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #fff; 
+  display: none; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .aboutMeImageItem:hover .aboutMeImageOverlay {
-  display: block; /* Show the text overlay on hover */
+  display: block; 
 }
 
 @media (max-width: 768px) {
   .aboutMeItems {
-    flex-direction: column; /* Stack the divs vertically */
+    flex-direction: column; 
   }
 
   .aboutMeItems > div {
-    flex: 1; /* Take full width of the container */
-    margin: 10px 0; /* Add vertical spacing between divs */
+    flex: 1; 
   }
 }
 
@@ -165,7 +152,6 @@ nav {
   text-align: center;
   color: #fff;
 }
-
 /* AboutMe End */
 
 /* PortfolioPageSection Start */
@@ -192,7 +178,6 @@ nav {
   }
 
   .portfolioStyle {
-    /* flex: 1; */
     margin: 40px;
     display: block;
   }
@@ -202,10 +187,14 @@ nav {
   display: inline-block;
   position: relative;
   margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
 }
   
 .portfolioImageItem {
   position: relative;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .projectTitleOverlay {
@@ -214,7 +203,7 @@ nav {
   top: 0%;
   width: 100%;
   height: 20%;
-  background-color: rgba(111, 114, 110, 0.448); /* Set the background color with some transparency */
+  background-color: #4ca6cf7e
 }
 
 .techStackOverlay {
@@ -223,13 +212,13 @@ nav {
     left: 0;
     width: 100%;
     height: 80%;
-    background-color: rgba(0, 0, 0, 0.5); /* You can customize the background color and opacity */
-    color: #fff; /* You can customize the text color */
-    display: none; /* The text will be hidden by default */
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
+    display: none; 
   }
   
   .portfolioImageItem:hover .techStackOverlay {
-    display: block; /* Show the text overlay on hover */
+    display: block;
   }
 
   .techStackOverlay > ul {
@@ -240,17 +229,14 @@ nav {
 
   /* PortfolioIntroduction Start */
   .portfolioIntroduction {
-    /* border-style: solid;
-    border-color: white; */
     text-align: center;
-    /* border-radius: 15px; */
     padding: 30px;
   }
 
   .portfolio-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4CAF50; /* Green color */
+    background-color: #4CAF50;
     color: white;
     border: none;
     border-radius: 5px;
@@ -261,7 +247,7 @@ nav {
   }
 
   .portfolio-button:hover {
-    background-color: #45a049; /* Slightly darker shade on hover */
+    background-color: #45a049;
   }
 
   /* PortfolioIntroduction End */
@@ -270,24 +256,25 @@ nav {
   /*Footer Start*/
 
   .footer {
-    /* border-style: solid; */
-    /* text-align: center; */
     display: block;
     text-align: center;
     color: white;
   }
 
   .footerPersonalLinks {
-    display: flex;
+    display: inline-block;
     list-style: none;
+    /* display: flex; */
   }
 
-  .footerPersonalLinks > li {
-    margin: auto;
+  .footerPersonalLinks > a {
+    margin-right: 10px;
+    text-decoration: none;
   }
 
   /*Footer End*/
 
+  
   .modalBackdrop {
     position: fixed;
     top: 0;

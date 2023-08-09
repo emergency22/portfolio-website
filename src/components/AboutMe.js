@@ -8,7 +8,7 @@ export default function AboutMe() {
             <div className="aboutMeImageItem">
                 <img src={Image} alt="Developer-Image" />
                 <div className="aboutMeImageOverlay">
-                    <p className="bumpedText">Text text text text. Text text text text.</p>
+                    <p>Text text text text. Text text text text.</p>
                 </div>
             </div>
             <h3>FirstName LastName</h3>

@@ -2,11 +2,11 @@
 export default function Footer() {
     return (
         <div className="footer">
-            <p>FirstName LastName</p><br />
-            <ul className="footerPersonalLinks">
-                <li><a href="">GitHub</a></li>
-                <li><a href="">LinkedIn</a></li>
-            </ul>
+            <p className="footerName">FirstName LastName</p><br />
+            <span className="footerPersonalLinks">
+                <a href="" target="_blank">GitHub</a>
+                <a href="" target="_blank">LinkedIn</a>
+            </span>
         </div>
     )
 }
