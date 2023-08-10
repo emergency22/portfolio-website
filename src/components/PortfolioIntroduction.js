@@ -4,7 +4,7 @@ export default function PortfolioIntroduction() {
 
     return (
         <div className="portfolioIntroduction">
-            <button onClick={() => window.location.href = "./portfolio"} className="portfolio-button">
+            <button onClick={() => window.location.href = "/portfolio"} className="portfolio-button">
                 View My Portfolio
             </button>
         </div>

@@ -141,8 +141,8 @@ export default function PortfolioPageSection() {
                         </div>
                     )}
 
-                    <a href="" target="_blank">Video Demo</a><br />
-                    <a href="" target="_blank">GitHub Repo</a>
+                    <a href="https://www.youtube.com/watch?v=dHkNxV84Lhk" target="_blank">Video Demo</a><br />
+                    <a href="https://github.com/emergency22/Digital-Nomad" target="_blank">GitHub Repo</a>
                 </div>
                 {/* <div className="portfolioItem">
                 <div className="portfolioImageItem" onClick={() => setIsModalOpen(true)}>
