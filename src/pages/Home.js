@@ -1,4 +1,3 @@
-import { createRoot } from 'react-dom/client';
 import Header from '../components/Header'
 import Introduction from '../components/Introduction'
 import AboutMe from '../components/AboutMe'
@@ -10,7 +9,7 @@ export default function Home() {
         <>
         <Header />
         <Introduction />
-        <AboutMe />
+        <AboutMe/>
         <PortfolioIntroduction />
         <Footer />
         </>
