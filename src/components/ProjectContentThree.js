@@ -7,7 +7,7 @@ export default function ProjectContentThree() {
             <div className="projectOverview">
                 <h3>Firefighter Cheatsheet</h3>
                 <hr />
-                <p>A firefighter tool to track hoses and their corresponding hose pressures in PSI.</p>
+                <p>A firefighter tool to track hoses and their corresponding hose pressures in PSI. This tool utilizes four CRUD APIs.</p>
                 <ul>
                     <li><b>Industry:</b> Full Stack Web Development</li>
                     <li><b>Duration:</b> 4 Weeks</li>
