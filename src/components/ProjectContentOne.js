@@ -40,6 +40,7 @@ export default function ProjectContentOne() {
                             <li>AWS Route 53 </li>
                             <li>AWS S3</li>
                             <li>AWS Cloudfront</li>
+                            <li>AWS Certificate Manager</li>
                         </ul>
                     </div>
                 </div>
