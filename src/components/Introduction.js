@@ -13,7 +13,7 @@ export default function Introduction() {
         <div className="introduction">
             <h1>Alex Murillo</h1>
             <h2>Full Stack Developer</h2>
-            <h3>Hey! Thanks for visiting my portfolio website. I am a junior-level full stack developer with a hard skill set in Java, Javascript, HTML, CSS, Amazon Web Services, SQL, and I have a working knowledge of Spring Boot and React.</h3>
+            <h3>Hey! Thanks for visiting my portfolio website. I am a full stack developer with a hard skill set in Java, Javascript, HTML, CSS, Amazon Web Services, SQL, and I have a working knowledge of Spring Boot and React.</h3>
             <ul className="introductionTechStackItems">
                 <li><img src={AWS} alt="AWS" width="60" /></li>
                 <li><img src={JavaIcon} alt="Java" width="60" /></li>
